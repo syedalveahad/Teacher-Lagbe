@@ -97,7 +97,7 @@ Here’s the structure of the project:
 ├── index.html             # Landing page for the platform
 └── README.md              # Project documentation
 
-##Usage:
+## Usage:
 
 - Launching the Project
 - Start your local server (Apache/Nginx).
@@ -120,7 +120,7 @@ Teacher/Student Dashboard:
 Teacher Dashboard: Shows the teacher's profile and allows managing student hire requests.
 Student Dashboard: Displays student-related information and allows browsing and hiring teachers.
 
-##Technologies Used
+## Technologies Used
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: PHP
@@ -128,7 +128,7 @@ Student Dashboard: Displays student-related information and allows browsing and 
 - Server: Apache/Nginx (for local setup)
 - Image Upload: Base64 encoding
 
-##Contributing
+## Contributing
 
 We welcome contributions! If you find any bugs or have suggestions for improvements, feel free to fork the repository and make a pull request. Alternatively, open an issue in the GitHub repository.
 
@@ -140,7 +140,7 @@ Steps to contribute:
 - Push to the branch (git push origin feature-branch).
 - Open a pull request.
 
-##License
+## License
 This project is open-source and available under the MIT License.
 
 -----------------------------------------------------------------
