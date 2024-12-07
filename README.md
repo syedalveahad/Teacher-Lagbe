@@ -68,34 +68,34 @@ If you're using PHP with Composer, you may need to run:
 
 Alternatively, for simple projects, this may not be necessary.
 
-##File Structure
+## File Structure
 
 Here’s the structure of the project:
 
-/Teacher_Lagbe_Web
-├── /img                   # Images used in the project
-├── /css                   # Stylesheets
-│   ├── home.css
-│   ├── style.css
-│   ├── login.css
-├── /js                    # JavaScript files
-│   └── script.js
-├── /php                   # PHP files
-│   ├── add_teacher.php
-│   ├── fetch_teacher.php
-│   ├── search_teacher.php
-│   ├── login.php
-│   ├── logout.php
-│   ├── teacher.php
-│   ├── student.php
-│   └── config.php
-│   └── home.php
-├── /html                  # HTML files
-│   ├── home.html
-│   ├── teacher.html
-│   └── student.html
-├── index.html             # Landing page for the platform
-└── README.md              # Project documentation
+>> Teacher_Lagbe_Web
+- img                   # Images used in the project
+- css                   # Stylesheets
+-- home.css
+-- style.css
+-- login.css
+- js                    # JavaScript files
+-- script.js
+- php                   # PHP files
+-- add_teacher.php
+-- fetch_teacher.php
+-- search_teacher.php
+-- login.php
+-- logout.php
+-- teacher.php
+-- student.php
+-- config.php
+-- home.php
+- html                  # HTML files
+-- home.html
+-- teacher.html
+-- student.html
+-- index.html             # Landing page for the platform
+- README.md              # Project documentation
 
 ## Usage:
 
