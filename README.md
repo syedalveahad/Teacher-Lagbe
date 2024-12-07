@@ -36,7 +36,6 @@ Before you begin, ensure that you have met the following requirements:
 
 First, clone the repository to your local machine:
 
-bash
 git clone https://github.com/syedalveahad/Teacher_Lagbe_Web.git
 cd Teacher_Lagbe_We
 
@@ -69,7 +68,7 @@ If you're using PHP with Composer, you may need to run:
 
 Alternatively, for simple projects, this may not be necessary.
 
-File Structure
+##File Structure
 
 Here’s the structure of the project:
 
@@ -98,7 +97,7 @@ Here’s the structure of the project:
 ├── index.html             # Landing page for the platform
 └── README.md              # Project documentation
 
-Usage:
+##Usage:
 
 - Launching the Project
 - Start your local server (Apache/Nginx).
@@ -121,7 +120,7 @@ Teacher/Student Dashboard:
 Teacher Dashboard: Shows the teacher's profile and allows managing student hire requests.
 Student Dashboard: Displays student-related information and allows browsing and hiring teachers.
 
-Technologies Used
+##Technologies Used
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: PHP
@@ -129,7 +128,7 @@ Technologies Used
 - Server: Apache/Nginx (for local setup)
 - Image Upload: Base64 encoding
 
-Contributing
+##Contributing
 
 We welcome contributions! If you find any bugs or have suggestions for improvements, feel free to fork the repository and make a pull request. Alternatively, open an issue in the GitHub repository.
 
@@ -141,7 +140,7 @@ Steps to contribute:
 - Push to the branch (git push origin feature-branch).
 - Open a pull request.
 
-License
+##License
 This project is open-source and available under the MIT License.
 
 -----------------------------------------------------------------
