@@ -1,134 +1,103 @@
-* {
+/* Overall Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-/* Header */
-header {
-    background-color: #64c4aa;
-    padding: 20px 0;
-}
-
-.containerheader {
-    max-width: 1200px;
-    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-/* Logo */
-.logo {
-    font-size: 28px;
+  }
+  
+  .logo {
+    font-size: 15px;
     font-weight: bold;
-    color: white;
-    margin-left: 20px;
-}
-
-/* Navigation */
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-nav a {
-    margin: 0 15px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Reset default display for improved mobile layout */
+  }
+  
+  nav li {
+    margin-right: 25px;
+    font-size: 20px;
+  }
+  
+  nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 7px;
-    transition: 0.3s;
-
-
-}
-
-nav a:hover {
-    text-decoration: none;
-    margin: 0 15px;
-    background-color: #333;
-    padding: 7px;
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 500;
-    border-radius: 7px;
-    transition: 0.3s;
-}
-
-
-
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-
-.login-container {
-    text-align: center;
-    max-width: 400px;
-    width: 100%;
-}
-
-.login-container p{
-    padding: 5px;
-    margin-top: 10px;
-    text-decoration: none !important;
-    color: Black;
-}
-
-.login-container img {
-    width: 250px;
-    height: 200px;
+  }
+  
+  /* Responsive Header for Mobile Devices */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column; /* Stack logo and nav on mobile */
+      align-items: center; /* Center content vertically */
+    }
+  
+    nav {
+      margin-top: 10px; /* Add space between logo and nav on mobile */
+    }
+  }
+  
+  /* Container */
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Center login form */
+  }
+  
+  .container h2 {
     margin-bottom: 20px;
-}
-
-form {
+  }
+  
+  /* Login Form */
+  #loginForm {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-form input,
-form button {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #loginForm label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  #loginForm input[type="text"],
+  #loginForm input[type="password"] {
+    width: 250px;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #00bfa5;
-    color: white;
-    cursor: pointer;
-}
-
-
-
-/* Footer */
-footer {
-    background-color: #64c4aa;
-    color: white;
-    padding: 30px 0;
-    text-align: center;
-}
-
-footer a {
-    margin: 0 15px;
-    text-decoration: none !important;
-    color: black;
-}
-
-footer .logo {
-    font-size: 18px;
     margin-bottom: 10px;
-}
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #loginForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
