@@ -152,3 +152,46 @@ Teacher Lagbe is an online platform designed for students and teachers by provid
 Objective:
 
 Our main objective with Teacher Lagbe is to offer an accessible, flexible, and secure platform for both students and teachers. By enabling online tutoring sessions, students can receive high-quality instruction without having to travel, and teachers can provide their expertise remotely, broadening their reach. This platform is ideal for short-term, targeted tutoring, where students can hire a teacher for as little as one hour for specific topics or challenges, or commit to longer-term arrangements if needed. Students also have the freedom to choose teachers based on qualifications and reviews, ensuring quality and reliability. Teacher Lagbe not only simplifies the tutoring process but also empowers teachers to earn on their terms by making education accessible anytime, anywhere.
+
+Project Contributor:
+
+Mishu >>
+
+index.html
+style.css
+home.css
+home.html
+home.php
+
+Santo >> 
+
+signup.html
+signup.php
+login.css
+login.php
+logout.php
+debug_session.php
+
+Kona >> 
+
+student.html
+student_home.html
+student.css
+student.js
+student.php
+search_teacher.php
+
+Alve >> 
+
+teacher.html
+teacher.php
+add_teacher.php
+get_teacher_info.php
+fetch_teacher.php
+script.js
+
+Sajib >>
+
+mark_notification_as_read.php
+submit_request.php
+fetch_notifications.php
